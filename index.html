@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       
+        <form action="#">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title">
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author">
+            <label for="pages">Pages</label>
+            <input type="text" name="pages" id="pages">
+            <button class="submit" type="button" onclick="addBookToLibrary()">SUBMIT</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                </tr>
+            </thead>
+            <tbody id="libraryTableBody">
+                <!-- Aqui as linhas da tabela serão adicionadas dinamicamente -->
+            </tbody>
+        </table>
+    </div>
+    
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

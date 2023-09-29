@@ -1,0 +1,84 @@
+body {
+    background-color: #000; /* Cor de fundo preta */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Cor do texto branca */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url('fundo-futurista.jpg') no-repeat center center fixed; /* Use uma imagem de fundo futurista */
+    background-size: cover;
+    border: 2px solid #00ffcc; /* Cor da borda neon */
+    box-shadow: 5px 5px 10px rgba(0, 255, 204, 0.5); /* Sombra neon */
+    border-radius: 10px;
+    color: #fff; /* Cor do texto branca */
+}
+
+button.new, button.submit {
+    background-color: #00ffcc; /* Cor de fundo neon */
+    color: #000; /* Cor do texto preta */
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.new:hover, button.submit:hover {
+    background-color: #00ccaa; /* Cor de fundo neon mais escura ao passar o mouse */
+}
+
+form label, input {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* Cor do texto branca */
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #00ffcc; /* Cor da borda neon */
+    border-radius: 5px;
+    background-color: rgba(0, 255, 204, 0.2); /* Cor de fundo neon transparente */
+    color: #fff; /* Cor do texto branca */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #00ffcc; /* Cor da borda neon */
+    padding: 8px;
+    text-align: left;
+    color: #fff; /* Cor do texto branca */
+}
+
+th {
+    background-color: rgba(0, 255, 204, 0.3); /* Cor de fundo neon transparente */
+}
+
+button {
+    background-color: #00ffcc; /* Cor de fundo neon */
+    color: #000; /* Cor do texto preta */
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #00ccaa; /* Cor de fundo neon mais escura ao passar o mouse */
+}
